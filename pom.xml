@@ -9,9 +9,9 @@
     <relativePath></relativePath>
   </parent>
 
-  <groupId>net.wasdev.wlp.sample</groupId>
-  <artifactId>asrTomcatEjemploCloudant</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <groupId>com.ibm.watson.developer_cloud</groupId>
+  <artifactId>language-translator</artifactId>
+  <version>3.7.0</version>
   <packaging>war</packaging>
 
   <name>Bluemix Getting Started</name>
@@ -78,6 +78,12 @@
 		    <groupId>javax.ws.rs</groupId>
 		    <artifactId>javax.ws.rs-api</artifactId>
 		    <version>2.1</version>
+		</dependency>
+		
+		<dependency>
+		  <groupId>com.ibm.watson.developer_cloud</groupId>
+		  <artifactId>language-translator</artifactId>
+		  <version>5.1.1</version>
 		</dependency>
 	
   </dependencies>

@@ -13,6 +13,15 @@
 <ul>
 <li><a href="listar">Listar</a></li>
 <li><a href="insertar?palabra=hola">Insertar</a></li>
+
+<li>
+	<form action="traducir">
+		Introduzca palabra a traducir
+		<input type="text" name="palabra">
+		<input type="submit" value="Guardar en Cloudant">
+	</form>
+</li>
+
 </ul>
 </body>
 </html>
