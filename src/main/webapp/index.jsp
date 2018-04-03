@@ -13,7 +13,7 @@
 <ul>
 <li><a href="listar">Listar</a></li>
 <li><a href="insertar?palabra=hola">Insertar</a></li>
-
+v4
 <li>
 	<form action="traducir">
 		Introduzca palabra a traducir
